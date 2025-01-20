@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jersey Designer 🎨👕
 
-## Getting Started
+**Powered by Three.js and Gemini's API**
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This is a cutting-edge web application for designing custom jerseys. Leveraging the power of **Three.js**, users can interact with 3D models to visualize their designs in real time. **Gemini's API** powers the seamless design and rendering process, ensuring smooth customization and top-notch performance.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🎨 Interactive 3D Customization
 
-## Learn More
+- Rotate, zoom, and pan 3D models for a full 360° view.
+- Apply colors, textures, and patterns with real-time feedback.
 
-To learn more about Next.js, take a look at the following resources:
+### 🌐 Gemini's API Integration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Upload custom designs or select from a preloaded gallery.
+- High-quality rendering for realistic previews.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🛠️ User-Friendly Design Tools
 
-## Deploy on Vercel
+- Drag-and-drop interface for text and logo placement.
+- Custom fonts, colors, and size adjustments.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 📱 Responsive and Modern UI
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Fully responsive for desktop, tablet, and mobile devices.
+- Built with a sleek and intuitive user interface.
+
+---
+
+## Tech Stack
+
+- **Framework:** Next.js (React-based web framework)
+- **3D Rendering:** Three.js
+- **API Integration:** Gemini's API
+- **Styling:** Tailwind CSS
+- **State Management:** Valtio
+- **Animations:** Framer Motion
+
+---
+
+## Installation
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/PrincessHemen/threejs
+   cd threejs
+   ```
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+3. **Set Up Environment Variables**
+   - Create a .env.local file
+   - Add your Gemini API credentials
+4. **Run the Development Server**
+   ```bash
+   npm run dev
+   ```
+5. **Open the Browser**
+   -Navigate to http://localhost:3000.
+
+## Usage
+
+1. Launch the website and go to the Jersey design section
+2. Customize your design through the palette
+3. Preview your design in 3D
+
+## Contributing
+
+Contributions are welcome! If you'd like to improve this project, please:
+
+1. Fork the repository.
+2. Create a new feature branch
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes
+   ```bash
+   git commit -m "Add feature name"
+   ```
+4. Push to your branch
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments
+
+- Three.js: For enabling stunning 3D rendering.
+- Gemini's API: For powering the design customization backend.
+- Next.js: For the amazing developer experience.
